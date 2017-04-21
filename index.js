@@ -14,6 +14,4 @@ exports.register = function () {
     cfg = plugin.config.get("number.ini", function () {
         plugin.register();
     });
-
-    console.log(cfg);
 };
