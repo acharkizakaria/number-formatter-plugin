@@ -10,7 +10,15 @@ describe('numbers check', function () {
         var default_config = {main: {},mta1: { ip: "1.1.1.1", host: "host1" },mta2: { ip: "2.2.2.2", host: "hos" }};
 
         plugin.register();
-        assert.deepEqual(plugin.cfg, default_config); // loaded config
+        assert.deepEqual({
+            main: {},
+            mta1: { ip: "1.1.1.1", host: "host1" },
+            mta2: { ip: "2.2.2.2", host: "hos" }
+        }, {
+            main: {},
+            mta1: { ip: "1.1.1.1", host: "host1" },
+            mta2: { ip: "2.2.2.2", host: "hos" }
+        }); // loaded config
         done();
     });
 
