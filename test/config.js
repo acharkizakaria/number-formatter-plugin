@@ -1,8 +1,8 @@
 'use strict';
 
-var assert = require('assert');
-var fixtures = require('haraka-test-fixtures');
-var Connection   = fixtures.connection;
+var path        = require('path');
+var assert      = require('assert');
+var fixtures    = require('haraka-test-fixtures');
 
 /*
  var _set_up = function (done) {
