@@ -33,7 +33,7 @@ describe('numbers check', function () {
         };
 
         plugin.register();
-        assert.deepEqual(this.plugin.cfg, default_config); // loaded config
+        assert.deepEqual(plugin.cfg, default_config); // loaded config
         done();
     });
 
