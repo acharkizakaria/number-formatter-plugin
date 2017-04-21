@@ -12,12 +12,12 @@ var _set_up = function (done) {
 var default_config = {
     main: {},
     mta1: { ip: "1.1.1.1", host: "host1" },
-    mta2: { ip: "2.2.2.2", host: "host2" }
+    mta2: { ip: "2.2.2.2", host: "host" }
 };
 
 exports.plugin_setup = {
     setUp : _set_up,
-    'registers': function (test) {
+    'registers': function(test) {
         test.expect(1);
         this.plugin.register();
         test.deepEqual(this.plugin.cfg, default_config); // loaded config
