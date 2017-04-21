@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/acharkizakaria/number-formatter-plugin/badge.svg?branch=master)](https://coveralls.io/github/acharkizakaria/number-formatter-plugin?branch=master)
+[![Build Status](https://travis-ci.org/acharkizakaria/number-formatter-plugin.svg?branch=master)](https://travis-ci.org/acharkizakaria/number-formatter-plugin)
 
 # number-formatter-plugin
 
