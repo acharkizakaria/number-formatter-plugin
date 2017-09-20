@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/acharkizakaria/number-formatter-plugin#readme",
   "dependencies": {
-    "haraka-constants": "*",
+    "haraka-constants": "1.0.4",
     "ip": "*"
   },
   "devDependencies": {
