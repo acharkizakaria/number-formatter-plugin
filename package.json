@@ -33,6 +33,6 @@
     "haraka-test-fixtures": ">=1.0.22",
     "path": "*",
     "assert": "*",
-    "mocha": ">=4.1.0"
+    "mocha": ">=5.0.0"
   }
 }
