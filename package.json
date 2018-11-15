@@ -30,7 +30,7 @@
   "devDependencies": {
     "eslint": ">=5.0.0",
     "eslint-plugin-haraka": "^1.0.9",
-    "haraka-test-fixtures": ">=1.0.23",
+    "haraka-test-fixtures": ">=1.0.26",
     "path": "*",
     "assert": "*",
     "mocha": ">=5.2.0"
