@@ -28,7 +28,7 @@
     "ip": "*"
   },
   "devDependencies": {
-    "eslint": ">=5.0.0",
+    "eslint": ">=5.15.2",
     "eslint-plugin-haraka": "^1.0.9",
     "haraka-test-fixtures": ">=1.0.23",
     "path": "*",
